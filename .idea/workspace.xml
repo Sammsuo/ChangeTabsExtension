@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ba1c910-f5ba-422e-b1a8-c084cbcd270d" name="Default Changelist" comment="">
+    <list default="true" id="9ba1c910-f5ba-422e-b1a8-c084cbcd270d" name="Default Changelist" comment="update">
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/_mocha" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/_mocha.cmd" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/acorn" afterDir="false" />
@@ -2224,13 +2224,11 @@
       <change afterPath="$PROJECT_DIR$/node_modules/@vue/cli-service/generator/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/@vue/cli-service/generator/router/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/@vue/cli-service/generator/router/template/src/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@vue/cli-service/generator/router/template/src/views/About.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/@vue/cli-service/generator/router/template/src/views/Home.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/@vue/cli-service/generator/template/_gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/@vue/cli-service/generator/template/public/favicon.ico" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/@vue/cli-service/generator/template/public/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/@vue/cli-service/generator/template/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@vue/cli-service/generator/template/src/assets/logo.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/@vue/cli-service/generator/template/src/components/HelloWorld.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/@vue/cli-service/generator/template/src/main.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/@vue/cli-service/generator/vuex/index.js" afterDir="false" />
@@ -26883,7 +26881,25 @@
       <change afterPath="$PROJECT_DIR$/node_modules/yorkie/src/utils/get-hook-script.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/yorkie/src/utils/is.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/app.72a73660.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/logo.82b9c7a5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/about.cefc2321.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/about.cefc2321.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.8f5a71b7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.8f5a71b7.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.d9dba2e9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.d9dba2e9.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/precache-manifest.51e32fb27662d044c304319cb819c050.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/service-worker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vue/cli-service/generator/template/src/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vue/cli-service/generator/router/template/src/views/About.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26935,7 +26951,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615946937375</updated>
-      <workItem from="1615946938737" duration="13335000" />
+      <workItem from="1615946938737" duration="13604000" />
     </task>
     <task id="LOCAL-00001" summary="创建代码">
       <created>1615970217077</created>
@@ -26952,17 +26968,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="创建代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建代码" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1230" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615971256709">
       <screen x="-1920" y="3" width="1920" height="1030" />
     </state>
     <state x="-1230" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.3.1920.1030/0.0.1536.824@-1920.3.1920.1030" timestamp="1615971256709" />
-    <state x="-1360" y="115" key="CommitChangelistDialog2" timestamp="1615971349438">
+    <state x="-1415" y="115" key="CommitChangelistDialog2" timestamp="1615971463289">
       <screen x="-1920" y="3" width="1920" height="1030" />
     </state>
-    <state x="-1360" y="115" key="CommitChangelistDialog2/-1920.3.1920.1030/0.0.1536.824@-1920.3.1920.1030" timestamp="1615971349438" />
+    <state x="-1415" y="115" key="CommitChangelistDialog2/-1920.3.1920.1030/0.0.1536.824@-1920.3.1920.1030" timestamp="1615971463289" />
     <state x="-1368" y="256" key="Vcs.Push.Dialog.v2" timestamp="1615970543501">
       <screen x="-1920" y="3" width="1920" height="1030" />
     </state>
