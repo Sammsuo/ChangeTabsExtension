@@ -48,6 +48,9 @@
       this.tabs_bg_data = this.test.getBgData();
     },
     methods: {
+      /**
+       * 设置自定义名称
+       */
       setPriName(){
         this.tabs_data.forEach(item => {
           if (item.id in this.tabs_bg_data){
@@ -57,9 +60,18 @@
         console.log('setPri内');
         console.log(this.tabs_data);
       },
+
+      /**
+       * 点击后高亮对下标的标签页
+       * @param index 标签页下标
+       */
       clickCallBack(index){
         chrome.tabs.highlight({tabs: index}, s => console.log(s))
       },
+
+      /**
+       * 控制更新框通信与不显示
+       */
       updateTabsTitle(){
         this.is_update_on = false;
 
@@ -67,6 +79,12 @@
         this.test.setBgData(this.tabs_bg_data);
         this.setPriName();
       },
+
+      /**
+       * 控制修改弹窗的显示
+       * @param target 原始标题名称
+       * @param tabs_id 标签id
+       */
       clickUpdate(target, tabs_id){
         if (this.tabs_bg_data === undefined){
           this.tabs_bg_data = {};
@@ -81,10 +99,18 @@
         }
         this.is_update_on = true;
       },
+
+      /**
+       * 获取当前窗口内的所有标签页数据
+       */
       getTabsAll(){
         chrome.tabs.query({currentWindow: true}, k => this.callback_f(k));
 
       },
+      /**
+       * 获取数据回调存储
+       * @param tabs
+       */
       callback_f(tabs){
         this.tabs_data = tabs;
         this.setPriName();
@@ -94,18 +120,5 @@
 </script>
 
 <style lang="stylus">
-#app
-  font-family 'Avenir', Helvetica, Arial, sans-serif
-  -webkit-font-smoothing antialiased
-  -moz-osx-font-smoothing grayscale
-  text-align center
-  color #2c3e50
 
-#nav
-  padding 30px
-  a
-    font-weight bold
-    color #2c3e50
-    &.router-link-exact-active
-      color #42b983
 </style>
